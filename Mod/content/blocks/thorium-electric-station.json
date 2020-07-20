@@ -1,0 +1,24 @@
+type: NuclearReactor
+name: Thorium Electric station
+description: Generates very big amounts of power from thorium. Requires constant cooling. Will explode violently if insufficient amounts of coolant are supplied. Power output depends on fullness, with base power generated at full capacity.
+health: 2500
+size: 10
+requirements: [
+lead/3000
+metaglass/200
+graphite/470
+thorium/280
+silicon/500
+]
+powerProduction: 140
+consumes: {
+items: {
+items: [
+thorium/10
+]}
+liquid: {
+liquid: cryofluid
+amount: 0.15
+}]
+category: power
+research: differential-generator
